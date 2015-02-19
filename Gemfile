@@ -45,8 +45,11 @@ group :development, :test do
   gem 'guard'
   gem 'guard-rspec'
   gem 'guard-rails'
+  gem 'guard-bundler'
 
   gem 'rspec-rails'
 end
 
-
+gem "less-rails"
+gem "twitter-bootstrap-rails"
+gem "slim-rails"
